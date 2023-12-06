@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Rubik:wght@300&display=swap");
+
+body,
+html {
+  background: #262626;
+  color: #fff;
+  font-family: "Bacasime Antique", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.section {
+  max-width: 28rem;
+  margin: 2rem auto;
+  background: #fff;
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  display: flex;
+  
+}
+
+@media (max-width: 768px) {
+  .section {
+    max-width: 30rem;
+  }
+}

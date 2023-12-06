@@ -1,0 +1,10 @@
+.list{
+  list-style: none;
+   border-bottom: 1px solid #ccc;
+   margin-bottom: 1rem;
+   width: 100%;
+   color: #000;
+}
+.list:last-of-type{
+    border-bottom: none;
+}
